@@ -1,0 +1,51 @@
+.fichaGeneral {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tablaVentas {
+  color: rgb(0, 0, 0);
+  border-collapse: collapse;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.tablaVentas th,
+.tablaVentas td {
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.tablaVentas th {
+  text-align: center;
+  color: white;
+  background-color: darkblue; 
+}
+
+.imagenProductoCarrito {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagar {
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  background-color: white;
+  padding: 10px;
+}

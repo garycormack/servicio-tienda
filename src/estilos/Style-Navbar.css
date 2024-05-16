@@ -1,0 +1,23 @@
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-brand:hover {
+  color: #007bff;
+  font-size: 28px;
+}
